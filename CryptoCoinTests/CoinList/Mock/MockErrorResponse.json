@@ -1,0 +1,11 @@
+{
+    "message": "Validation Failed",
+    "errors": [
+        {
+            "message": "None of the search qualifiers apply to this search type.",
+            "resource": "Search",
+            "code": "invalid"
+        }
+    ]
+}
+
