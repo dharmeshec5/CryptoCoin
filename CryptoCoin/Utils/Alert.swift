@@ -5,7 +5,6 @@
 //  Created by Dharmesh Patel on 31/03/22.
 //
 
-import Foundation
 import UIKit
 
 // MARK: - AlertProtocol
