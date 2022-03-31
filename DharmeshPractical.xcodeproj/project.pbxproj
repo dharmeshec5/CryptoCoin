@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E219F8432680E1D500B801B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219F8422680E1D500B801B4 /* AppDelegate.swift */; };
-		E219F84F2680E1D600B801B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219F84E2680E1D600B801B4 /* Assets.xcassets */; };
 		E219F8522680E1D600B801B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E219F8502680E1D600B801B4 /* LaunchScreen.storyboard */; };
 		E219F8682680E1D600B801B4 /* DharmeshPracticalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219F8672680E1D600B801B4 /* DharmeshPracticalUITests.swift */; };
 		E2677FD927F62E340046C5CA /* CryptoCoin.docc in Sources */ = {isa = PBXBuildFile; fileRef = E2677FD827F62E340046C5CA /* CryptoCoin.docc */; };
@@ -49,6 +48,7 @@
 		E267801F27F634CF0046C5CA /* MockCoinListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23DB905268283C3009F5B39 /* MockCoinListPresenter.swift */; };
 		E267802027F634CF0046C5CA /* MockCoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23DB907268283C3009F5B39 /* MockCoinListView.swift */; };
 		E267802127F634D40046C5CA /* CoinModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2677FA127F5F74F0046C5CA /* CoinModelTests.swift */; };
+		E267809C27F647910046C5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E219F84E2680E1D600B801B4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -203,8 +203,8 @@
 		E219F8412680E1D500B801B4 /* DharmeshPractical */ = {
 			isa = PBXGroup;
 			children = (
-				E219F8422680E1D500B801B4 /* AppDelegate.swift */,
 				E219F84E2680E1D600B801B4 /* Assets.xcassets */,
+				E219F8422680E1D500B801B4 /* AppDelegate.swift */,
 				E219F8502680E1D600B801B4 /* LaunchScreen.storyboard */,
 				E219F8532680E1D600B801B4 /* Info.plist */,
 			);
@@ -472,8 +472,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E267809C27F647910046C5CA /* Assets.xcassets in Resources */,
 				E219F8522680E1D600B801B4 /* LaunchScreen.storyboard in Resources */,
-				E219F84F2680E1D600B801B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

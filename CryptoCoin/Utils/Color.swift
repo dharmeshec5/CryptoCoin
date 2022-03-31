@@ -11,12 +11,12 @@ import UIKit
 struct Color {
     
     static var blackColor: UIColor {
-        UIColor(named: "blackColor")!
+        UIColor.white
     }
     static var greenColor: UIColor {
-        UIColor(named: "greenColor")!
+        UIColor(red: 0, green: 135/255, blue: 0, alpha: 1)
     }
     static var redColor: UIColor {
-        UIColor(named: "redColor")!
+        UIColor(red: 255/255, green: 76/255, blue: 0, alpha: 1)
     }
 }

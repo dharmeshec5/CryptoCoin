@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CryptoCoin"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Crypto coin screen design."
 
 
@@ -25,7 +25,7 @@ This CocoaPods library for cryto coin information.
   spec.source       = { :git => "https://github.com/dharmeshec5/CryptoCoin.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "CryptoCoin/**/*.{h,m,swift}"
+  spec.source_files  = "CryptoCoin/**/*"
   spec.exclude_files = "Classes/Exclude"
 
 end
